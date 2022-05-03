@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /* min-width: 70vw; */
+    font-family: 'Inter','sans-serif';
+}
+
+/* .app{
+    min-width: 70vw;
+} */
+
+.navbar{
+    padding: 0.7rem;
+    background: #F55A5A;
+    text-align: center;
+    /* display: flex; */
+}
+
+.header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+.card_box{
+    padding: 2em 10em;
+}
+
+.card{
+    margin-top: 2em;
+    padding: 2.5rem;
+    background: #D0F5FF;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.card_pic{
+    width:35%;
+    border-radius: 5px;
+}
+
+.card_text{
+    width: 60%;
+}
+
+.card_intro{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot{
+    color: #F55A5A;
+}
